@@ -20,8 +20,11 @@ void setup() {
 
 
 void setup() {
-
+    pinMode(touchPin,INPUT);
+    pinMode(ledPin,OUTPUT);
+    Serial.begin(9600);
 }
+
 
 void loop() {
 
